@@ -2,7 +2,8 @@
 
 An end-to-end deep learning web application designed to predict whether a patient will experience an extended ICU stay (defined as exceeding the 75th percentile) based on vital sign metrics and demographic data.
 
-**GitHub Repository:** [View Source Code](#)
+**GitHub Repository:** [View Source Code](https://github.com/avamungaray/icu_length_of_stay)  
+**Live Demo:** [View Streamlit App](https://your-app-name.streamlit.app)
 
 ---
 
