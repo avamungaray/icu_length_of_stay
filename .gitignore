@@ -1,0 +1,22 @@
+# Python / Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Data Privacy
+data/
+raw_data/
+*.csv
+*.parquet
