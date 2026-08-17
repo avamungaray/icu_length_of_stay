@@ -181,9 +181,9 @@ if model is not None:
         standard_stay_prob = 1.0 - extended_stay_prob
         
         # Operational alert logic tied to classification threshold
-        if extended_stay_prob >= 0.90:
+        if extended_stay_prob >= 0.70:
             st.error("High risk of exceeding a 4-day stay. Flagged for intensive long-term care routing and bed-mitigation logistics.")
-        elif extended_stay_prob >= 0.80:
+        elif extended_stay_prob >= 0.30:
             st.warning("Borderline risk of an extended stay. Monitor closely; patient is tracking near the critical 4-day operational threshold.")
         else:
             st.success("Optimized Capacity Stream. High confidence for standard discharge under 4 days/rapid bed turnover.")
